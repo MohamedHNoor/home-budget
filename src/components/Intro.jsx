@@ -23,6 +23,7 @@ const Intro = () => {
             aria-label='Your name'
             autoComplete='give-name'
           />
+          <input type='hidden' name='_action' value='newUser' />
           <button type='submit' className='btn btn--dark'>
             <span>Create Account</span>
             <UserPlusIcon width={20} />
