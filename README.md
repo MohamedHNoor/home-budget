@@ -1,9 +1,90 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Budgeting app which saves your data to local storage in the browser. Built with React & some of the newer features of the React Router package - such as Forms, loaders & actions.
 
-Currently, two official plugins are available:
+## Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# home-budget
+- JavaScript
+- React
+- React-router-dom
+
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd <folder>
+  git clone https://github.com/MohamedHNoor/home-budget.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+ npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+ npm run dev
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+npm run build
+```
+
+## Authors
+
+👤 **Mohamed Hassan Noor**
+
+- GitHub: [@MohamedHNoor](https://github.com/MohamedHNoor)
+- Twitter: [@MohamedHNoor](https://twitter.com/MohamedHNoor)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamedhnoor/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/MohamedHNoor/home-budget/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
