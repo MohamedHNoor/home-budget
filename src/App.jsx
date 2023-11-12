@@ -9,7 +9,7 @@ import Main, { mainLoader } from './layouts/main';
 // loaders and actions
 import { dashboardAction, dashboardLoader } from './pages/Dashboard';
 import { logoutAction } from './actions/logout';
-import { expensesLoader } from './pages/ExpensesPage';
+import { expensesAction, expensesLoader } from './pages/ExpensesPage';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +29,7 @@ const router = createBrowserRouter([
         path: 'expenses',
         element: <ExpensesPage />,
         loader: expensesLoader,
+        action: expensesAction,
       },
       {
         path: 'logout',
