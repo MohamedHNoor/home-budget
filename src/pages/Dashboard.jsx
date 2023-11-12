@@ -1,6 +1,11 @@
 import { useLoaderData } from 'react-router-dom';
 import { createBudget, createExpense, fetchData, waait } from '../helpers';
-import { AddBudgetForm, AddExpenseForm, Intro } from '../components';
+import {
+  AddBudgetForm,
+  AddExpenseForm,
+  Intro,
+  BudgetItem,
+} from '../components';
 import { toast } from 'react-toastify';
 
 // loader
@@ -69,6 +74,12 @@ const Dashboard = () => {
                 <div className='flex-lg'>
                   <AddBudgetForm />
                   <AddExpenseForm budgets={budgets} />
+                </div>
+                <h2>Existing Bidgets</h2>
+                <div className='budgets'>
+                  {budgets.map((budget) => (
+                    <BudgetItem key={budget.id} budget={budget} />
+                  ))}
                 </div>
               </div>
             ) : (
